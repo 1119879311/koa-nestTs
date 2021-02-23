@@ -1,0 +1,32 @@
+{
+  "name": "koanestts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon --watch src -e ts,tsx --exec ts-node ./test/index.ts",
+    "dev": "set NODE_ENV=development&&nodemon --watch src -e ts,tsx --exec ts-node ./src/index.ts",
+    "build": "set NODE_ENV=production&&tsc && nodemon  dist/index.js --watch dist",
+    "pm2": "set NODE_ENV=production && tsc && pm2  start dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "db-sql": "^1.0.0",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-router": "^7.4.0",
+    "mysql": "^2.17.1",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.11.0",
+    "@types/koa-bodyparser": "^4.3.0",
+    "@types/koa-router": "^7.0.42",
+    "@types/mysql": "^2.15.8",
+    "@types/node": "^12.12.21",
+    "nodemon": "^1.19.0",
+    "ts-node": "^8.4.1",
+    "typescript": "^3.4.5"
+  }
+}

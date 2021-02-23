@@ -1,0 +1,627 @@
+[2021-1-15 4:59:42 ├F10: PM┤] [::1] [error] : Error: non-error thrown: "12121"
+    at Object.onerror (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa\lib\context.js:113:40)
+    at onerror (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa\lib\application.js:163:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-15 5:02:22 ├F10: PM┤] [::1] [error] : Error: non-error thrown: "12121"
+    at Object.onerror (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa\lib\context.js:113:40)
+    at onerror (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa\lib\application.js:163:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-15 5:02:29 ├F10: PM┤] [::1] [error] : Error: non-error thrown: "12121"
+    at Object.onerror (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa\lib\context.js:113:40)
+    at onerror (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa\lib\application.js:163:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-15 5:02:30 ├F10: PM┤] [::1] [error] : Error: non-error thrown: "12121"
+    at Object.onerror (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa\lib\context.js:113:40)
+    at onerror (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa\lib\application.js:163:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-15 5:02:33 ├F10: PM┤] [::1] [error] : Error: non-error thrown: "12121"
+    at Object.onerror (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa\lib\context.js:113:40)
+    at onerror (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa\lib\application.js:163:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-15 5:02:35 ├F10: PM┤] [::1] [error] : Error: non-error thrown: "12121"
+    at Object.onerror (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa\lib\context.js:113:40)
+    at onerror (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa\lib\application.js:163:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-15 5:02:44 ├F10: PM┤] [::1] [error] : Error: non-error thrown: "12121"
+    at Object.onerror (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa\lib\context.js:113:40)
+    at onerror (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa\lib\application.js:163:32)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-15 5:03:58 ├F10: PM┤] [::1] [error] : UnauthorizedError: User not found. Please login!
+    at Object.assert (D:\workingSpace\webproject\node\typescript-koa\node_modules\http-assert\index.js:8:9)
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:19:9
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:33:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-15 5:03:59 ├F10: PM┤] [::1] [error] : UnauthorizedError: User not found. Please login!
+    at Object.assert (D:\workingSpace\webproject\node\typescript-koa\node_modules\http-assert\index.js:8:9)
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:19:9
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:33:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-15 5:04:22 ├F10: PM┤] [::1] [error] : UnauthorizedError: User not found. Please login!
+    at Object.assert (D:\workingSpace\webproject\node\typescript-koa\node_modules\http-assert\index.js:8:9)
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:19:9
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:33:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-15 5:04:29 ├F10: PM┤] [::1] [error] : UnauthorizedError: User not found. Please login!
+    at Object.assert (D:\workingSpace\webproject\node\typescript-koa\node_modules\http-assert\index.js:8:9)
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:19:9
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:33:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-15 5:05:54 ├F10: PM┤] [::1] [error] : UnauthorizedError: User not found. Please login!
+    at Object.assert (D:\workingSpace\webproject\node\typescript-koa\node_modules\http-assert\index.js:8:9)
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:19:9
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:33:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-15 5:05:55 ├F10: PM┤] [::1] [error] : UnauthorizedError: User not found. Please login!
+    at Object.assert (D:\workingSpace\webproject\node\typescript-koa\node_modules\http-assert\index.js:8:9)
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:19:9
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:33:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-15 5:06:11 ├F10: PM┤] [::1] [error] : UnauthorizedError: User not found. Please login!
+    at Object.assert (D:\workingSpace\webproject\node\typescript-koa\node_modules\http-assert\index.js:8:9)
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:19:9
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:33:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-15 5:06:12 ├F10: PM┤] [::1] [error] : UnauthorizedError: User not found. Please login!
+    at Object.assert (D:\workingSpace\webproject\node\typescript-koa\node_modules\http-assert\index.js:8:9)
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:19:9
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:33:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-15 5:06:12 ├F10: PM┤] [::1] [error] : UnauthorizedError: User not found. Please login!
+    at Object.assert (D:\workingSpace\webproject\node\typescript-koa\node_modules\http-assert\index.js:8:9)
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:19:9
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:33:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-15 5:06:12 ├F10: PM┤] [::1] [error] : UnauthorizedError: User not found. Please login!
+    at Object.assert (D:\workingSpace\webproject\node\typescript-koa\node_modules\http-assert\index.js:8:9)
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:19:9
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:33:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-15 5:20:40 ├F10: PM┤] [::1] [error] : UnauthorizedError: User not found. Please login!
+    at Object.assert (D:\workingSpace\webproject\node\typescript-koa\node_modules\http-assert\index.js:8:9)
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:19:9
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:33:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-15 5:21:39 ├F10: PM┤] [::1] [error] : UnauthorizedError: User not found. Please login!
+    at Object.assert (D:\workingSpace\webproject\node\typescript-koa\node_modules\http-assert\index.js:8:9)
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:19:9
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:33:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-15 5:21:44 ├F10: PM┤] [::1] [error] : UnauthorizedError: User not found. Please login!
+    at Object.assert (D:\workingSpace\webproject\node\typescript-koa\node_modules\http-assert\index.js:8:9)
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:19:9
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:33:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-15 5:22:01 ├F10: PM┤] [::1] [error] : UnauthorizedError: User not found. Please login!
+    at Object.assert (D:\workingSpace\webproject\node\typescript-koa\node_modules\http-assert\index.js:8:9)
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:19:9
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:33:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-15 5:22:11 ├F10: PM┤] [::1] [error] : UnauthorizedError: User not found. Please login!
+    at Object.assert (D:\workingSpace\webproject\node\typescript-koa\node_modules\http-assert\index.js:8:9)
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:19:9
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:33:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-25 10:45:12 ├F10: PM┤] [::1] [error] : Error: server is error 500
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:22:11
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:33:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-25 10:45:12 ├F10: PM┤] [::1] [error] : Error: server is error 500
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:22:11
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:28:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-25 10:45:25 ├F10: PM┤] [::1] [error] : Error: server is error 500
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:22:11
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:33:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-25 10:45:25 ├F10: PM┤] [::1] [error] : Error: server is error 500
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:22:11
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:28:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 9:58:45 ├F10: AM┤] [::1] [error] : Error: server is error 500
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:22:11
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:33:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 9:58:46 ├F10: AM┤] [::1] [error] : Error: server is error 500
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:22:11
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:28:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 9:59:14 ├F10: AM┤] [::ffff:127.0.0.1] [error] : Error: server is error 500
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:22:11
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:33:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 9:59:14 ├F10: AM┤] [::ffff:127.0.0.1] [error] : Error: server is error 500
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:22:11
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:28:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:00:01 ├F10: AM┤] [::1] [error] : Error: server is error 500
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:22:11
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:33:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:00:01 ├F10: AM┤] [::1] [error] : Error: server is error 500
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:22:11
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:28:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:01:42 ├F10: AM┤] [::ffff:127.0.0.1] [error] : Error: server is error 500
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:18:11
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:33:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:01:42 ├F10: AM┤] [::ffff:127.0.0.1] [error] : Error: server is error 500
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:18:11
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:28:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:01:59 ├F10: AM┤] [::ffff:127.0.0.1] [error] : Error: server is error 400
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:23:11
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:33:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:01:59 ├F10: AM┤] [::ffff:127.0.0.1] [error] : Error: server is error 400
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:23:11
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:28:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:07:04 ├F10: AM┤] [::1] [error] : Error: server is error 400
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:23:11
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:33:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:07:04 ├F10: AM┤] [::1] [error] : Error: server is error 400
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:23:11
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:28:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:07:45 ├F10: AM┤] [::1] [error] : Error: server is error 400
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:23:11
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:33:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:08:22 ├F10: AM┤] [::1] [error] : Error: server is error 400
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:23:11
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:33:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:08:23 ├F10: AM┤] [::1] [error] : Error: server is error 400
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:23:11
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:28:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:08:55 ├F10: AM┤] [::ffff:127.0.0.1] [error] : Error: server is error 400
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:23:11
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:33:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:08:55 ├F10: AM┤] [::ffff:127.0.0.1] [error] : Error: server is error 400
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:23:11
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:28:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:08:58 ├F10: AM┤] [::ffff:127.0.0.1] [error] : Error: server is error 400
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:23:11
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:33:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:08:58 ├F10: AM┤] [::ffff:127.0.0.1] [error] : Error: server is error 400
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:23:11
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:28:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:13:05 ├F10: AM┤] [::1] [error] : Error: server is error 400
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:23:11
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:33:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:13:05 ├F10: AM┤] [::1] [error] : Error: server is error 400
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:23:11
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:28:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:13:34 ├F10: AM┤] [::1] [error] : Error: server is error 400
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:20:11
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:33:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:13:34 ├F10: AM┤] [::1] [error] : Error: server is error 400
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:20:11
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:28:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:33:30 ├F10: AM┤] [::1] [error] : BadRequestError: server is 400 123456
+    at Object.throw (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa\lib\context.js:97:11)
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:26:14
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:33:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:33:30 ├F10: AM┤] [::1] [error] : BadRequestError: server is 400 123456
+    at Object.throw (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa\lib\context.js:97:11)
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:26:14
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:28:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:33:31 ├F10: AM┤] [::1] [error] : BadRequestError: server is 400 123456
+    at Object.throw (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa\lib\context.js:97:11)
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:26:14
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:33:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:33:31 ├F10: AM┤] [::1] [error] : BadRequestError: server is 400 123456
+    at Object.throw (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa\lib\context.js:97:11)
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:26:14
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:28:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:34:07 ├F10: AM┤] [::1] [error] : BadRequestError: server is 400 123456
+    at Object.throw (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa\lib\context.js:97:11)
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:26:14
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:33:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:34:07 ├F10: AM┤] [::1] [error] : BadRequestError: server is 400 123456
+    at Object.throw (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa\lib\context.js:97:11)
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:26:14
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:28:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:36:57 ├F10: AM┤] [::1] [error] : BadRequestError: server is 400 123456
+    at Object.throw (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa\lib\context.js:97:11)
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:26:14
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:33:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:36:57 ├F10: AM┤] [::1] [error] : BadRequestError: server is 400 123456
+    at Object.throw (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa\lib\context.js:97:11)
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:26:14
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:28:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:42:26 ├F10: AM┤] [::1] [error] : BadRequestError: server is 400 123456
+    at Object.throw (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa\lib\context.js:97:11)
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:26:14
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:33:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:42:27 ├F10: AM┤] [::1] [error] : BadRequestError: server is 400 123456
+    at Object.throw (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa\lib\context.js:97:11)
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:26:14
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:28:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:42:27 ├F10: AM┤] [::1] [error] : BadRequestError: server is 400 123456
+    at Object.throw (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa\lib\context.js:97:11)
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:26:14
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:33:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:42:27 ├F10: AM┤] [::1] [error] : BadRequestError: server is 400 123456
+    at Object.throw (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa\lib\context.js:97:11)
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:26:14
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:28:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:42:28 ├F10: AM┤] [::1] [error] : BadRequestError: server is 400 123456
+    at Object.throw (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa\lib\context.js:97:11)
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:26:14
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:33:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:42:28 ├F10: AM┤] [::1] [error] : BadRequestError: server is 400 123456
+    at Object.throw (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa\lib\context.js:97:11)
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:26:14
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:28:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:43:02 ├F10: AM┤] [::1] [error] : BadRequestError: Bad Request
+    at Object.throw (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa\lib\context.js:97:11)
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:26:21
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:33:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:43:02 ├F10: AM┤] [::1] [error] : BadRequestError: Bad Request
+    at Object.throw (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa\lib\context.js:97:11)
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:26:21
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:33:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:43:02 ├F10: AM┤] [::1] [error] : BadRequestError: Bad Request
+    at Object.throw (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa\lib\context.js:97:11)
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:26:21
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:28:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:43:02 ├F10: AM┤] [::1] [error] : BadRequestError: Bad Request
+    at Object.throw (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa\lib\context.js:97:11)
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:26:21
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:33:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:43:02 ├F10: AM┤] [::1] [error] : BadRequestError: Bad Request
+    at Object.throw (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa\lib\context.js:97:11)
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:26:21
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:28:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:43:03 ├F10: AM┤] [::1] [error] : BadRequestError: Bad Request
+    at Object.throw (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa\lib\context.js:97:11)
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:26:21
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:33:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:43:03 ├F10: AM┤] [::1] [error] : BadRequestError: Bad Request
+    at Object.throw (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa\lib\context.js:97:11)
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:26:21
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:28:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:44:14 ├F10: AM┤] [::1] [error] : BadRequestError: Bad Request
+    at Object.throw (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa\lib\context.js:97:11)
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:26:21
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:33:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:44:14 ├F10: AM┤] [::1] [error] : BadRequestError: Bad Request
+    at Object.throw (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa\lib\context.js:97:11)
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:26:21
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:28:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:44:15 ├F10: AM┤] [::1] [error] : BadRequestError: Bad Request
+    at Object.throw (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa\lib\context.js:97:11)
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:26:21
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:33:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:44:15 ├F10: AM┤] [::1] [error] : BadRequestError: Bad Request
+    at Object.throw (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa\lib\context.js:97:11)
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:26:21
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:28:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:44:15 ├F10: AM┤] [::1] [error] : BadRequestError: Bad Request
+    at Object.throw (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa\lib\context.js:97:11)
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:26:21
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:33:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:44:15 ├F10: AM┤] [::1] [error] : BadRequestError: Bad Request
+    at Object.throw (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa\lib\context.js:97:11)
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:26:21
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:28:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:44:16 ├F10: AM┤] [::1] [error] : BadRequestError: Bad Request
+    at Object.throw (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa\lib\context.js:97:11)
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:26:21
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:33:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:44:16 ├F10: AM┤] [::1] [error] : BadRequestError: Bad Request
+    at Object.throw (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa\lib\context.js:97:11)
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:26:21
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:28:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:44:40 ├F10: AM┤] [::1] [error] : BadRequestError: Bad Request
+    at Object.throw (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa\lib\context.js:97:11)
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:31:21
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:33:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:44:40 ├F10: AM┤] [::1] [error] : BadRequestError: Bad Request
+    at Object.throw (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa\lib\context.js:97:11)
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:31:21
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:28:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:44:41 ├F10: AM┤] [::1] [error] : BadRequestError: Bad Request
+    at Object.throw (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa\lib\context.js:97:11)
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:31:21
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:33:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:44:41 ├F10: AM┤] [::1] [error] : BadRequestError: Bad Request
+    at Object.throw (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa\lib\context.js:97:11)
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:31:21
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:28:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:44:42 ├F10: AM┤] [::1] [error] : BadRequestError: Bad Request
+    at Object.throw (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa\lib\context.js:97:11)
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:31:21
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:33:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 10:44:42 ├F10: AM┤] [::1] [error] : BadRequestError: Bad Request
+    at Object.throw (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa\lib\context.js:97:11)
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:31:21
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at exports.logsInfo (D:\workingSpace\webproject\node\typescript-koa\src\Common\Middleware\logs.ts:28:15)
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at bodyParser (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-bodyparser\index.js:95:11)
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2021-1-26 2:51:08 ├F10: PM┤] [::1] [error] : Error: 中间件错误
+    at D:\workingSpace\webproject\node\typescript-koa\src\index.ts:15:11
+    at dispatch (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:42:32)
+    at D:\workingSpace\webproject\node\typescript-koa\node_modules\koa-compose\index.js:34:12
+    at Application.handleRequest (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa\lib\application.js:166:12)
+    at Server.handleRequest (D:\workingSpace\webproject\node\typescript-koa\node_modules\koa\lib\application.js:148:19)
+    at Server.emit (events.js:315:20)
+    at Server.EventEmitter.emit (domain.js:482:12)
+    at parserOnIncoming (_http_server.js:790:12)
+    at HTTPParser.parserOnHeadersComplete (_http_common.js:119:17)
