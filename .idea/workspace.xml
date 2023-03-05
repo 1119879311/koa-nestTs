@@ -1,18 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5f41629-190c-4198-b2f2-5ec98ebcad4b" name="默认更改列表" comment="" />
-    <ignored path="$PROJECT_DIR$/.tmp/" />
-    <ignored path="$PROJECT_DIR$/temp/" />
-    <ignored path="$PROJECT_DIR$/tmp/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="c5f41629-190c-4198-b2f2-5ec98ebcad4b" name="默认更改列表" comment="默认更改列表">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/User/user.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/User/user.controller.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/User/user.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/User/user.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/User/user.serves.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/User/user.serves.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/modules/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/share/Filter/http.exceptions.filter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/share/Filter/http.exceptions.filter.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/share/Interceptor/http.response.interceptor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/share/Interceptor/http.response.interceptor.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/share/Ioc/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/share/Ioc/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/share/Ioc/lib/Container.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/share/Ioc/lib/Container.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/share/Ioc/lib/Inject.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/share/Ioc/lib/Inject.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/share/Ioc/lib/Module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/share/Ioc/lib/Module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/share/Ioc/lib/Uitl.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/share/Ioc/lib/Uitl.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/share/Ioc/test/test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/share/Ioc/test/test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/share/Util/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/share/Util/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/share/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/share/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/share/routerDecorator/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/share/routerDecorator/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/share/routerDecorator/lib/GetRouters.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/share/routerDecorator/lib/GetRouters.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/share/routerDecorator/lib/Guard.Decorator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/share/routerDecorator/lib/Guard.Decorator.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/share/routerDecorator/lib/Interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/share/routerDecorator/lib/Interface.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/share/routerDecorator/lib/Methond.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/share/routerDecorator/lib/Methond.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/share/routerDecorator/lib/Parameter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/share/routerDecorator/lib/Parameter.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/share/routerDecorator/lib/ResigerRouter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/share/routerDecorator/lib/ResigerRouter.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/share/routerDecorator/lib/metadata.Decorator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/share/routerDecorator/lib/metadata.Decorator.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/share/routerDecorator/test/index.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/share/routerDecorator/test/index.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/uitl/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/uitl/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -21,6 +43,9 @@
         <option value="TypeScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -32,12 +57,16 @@
       </list>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="369" />
     <option name="y" value="114" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectId" id="2MXjnwPsT7WacLGC2eBmmxOk1BM" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -47,30 +76,27 @@
       <pane id="Scope" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="NewWatcherDialog.advanced.open" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/AppData/Roaming/npm/tsc.cmd" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
-    <property name="ts.external.directory.path" value="F:\Program Files (x86)\WebStorm 2018.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="ts.external.directory.path" value="D:\workingSpace\webproject\node\koa-nestTs\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -82,6 +108,7 @@
       <option name="presentableId" value="Default" />
       <updated>1542886864164</updated>
       <workItem from="1542886865378" duration="1460000" />
+      <workItem from="1677920995348" duration="102000" />
     </task>
     <servers />
   </component>
@@ -113,11 +140,17 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/src/index.js" />
-      </list>
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
     </option>
   </component>
   <component name="editorHistoryManager">

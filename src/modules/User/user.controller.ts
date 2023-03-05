@@ -1,29 +1,39 @@
-
-import { Controller, GET, setMetadata, Use } from "../../share/routerDecorator";
+// import { POST } from "src/share/RouterDecorator.all";
+import { Auth } from "../../share/Decorator";
+import { Perssions, PERSSIONSKEY } from "../../share/Decorator";
+import {
+  Controller,
+  GET,
+  setMetadata,
+  Use,
+  Query,
+  IGuard,
+  Guard,
+  POST,
+  GetContext,
+  Header,
+  Ctx
+} from "../../share/routerDecorator";
+import { AddUserDto } from "./dto/add.user.dto";
 import { UserServer } from "./user.serves";
-
-
-
-async  function middelare(ctx:any,next:Function){
-    console.log("121212")
-    ctx.body= await "拦截啦"
-   await next()
-  
-}
-
+class Q {}
 // @Guard(authUser)
-@Use(middelare)
-@Controller()
-export class UserController{
-    constructor(
-        private userServer:UserServer
-    ){}
-    @Use(middelare)
-    @setMetadata("Perssions",'list')
-    @GET("/list")
-    find(){
-       
-        // throw new Error("server is error")
-        return this.userServer.find();
-    }
+// @Use(middelare)
+// @Auth()
+// @setMetadata("per-group", "user")
+@Controller("spc")
+export class UserController {
+  constructor(private userServer: UserServer) {}
+  // @Guard(authUser)
+  // @Use(middelare)
+  // @setMetadata("Perssions", "list")
+  @Auth("list")
+  @GET()
+  list(@Header() headers: Record<string, any>,@Ctx() ctx: any,@Query("name") name: string,@Query() query:Q) {
+    // @GetContext(PERSSIONSKEY, true) perssions: string // @Query("name") name: string // @Query() query: AddUserDto,
+    // throw new Error("server is error")
+    // console.log("headers", headers);
+    // return this.userServer.find();
+    ctx.render("index",{title:"title"})
+  }
 }

@@ -1,10 +1,10 @@
 import { Injectable } from "../../share/Ioc";
+import { SqlServer } from "./usersql.server";
 
 @Injectable()
-export class UserServer{
-
-    find(){
-        return "this is userserver"
-    }
-
+export class UserServer {
+  constructor(private sqlServer: SqlServer) {}
+  find(optoin: Record<string, any> = {}) {
+    return 111;
+  }
 }
