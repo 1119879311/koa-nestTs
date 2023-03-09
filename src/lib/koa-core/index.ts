@@ -7,7 +7,7 @@ import { ResigerRouters } from "../koa-router-decorator"
 
 
 interface IKoaNestOption {
-    Irouter:koaRouter.IRouterOptions,
+    routerOptions:koaRouter.IRouterOptions,
     [key:string]:any
 }
 
@@ -23,12 +23,10 @@ export class KoaNestTs<T> {
 
 
     constructor(appModule:Type<T>, options:IKoaNestOption){
-        const {Irouter} = options || {}
+        const {routerOptions} = options || {}
         this.iocInstance = new Container(appModule)
-        this.routerInstance = new koaRouter(Irouter)
+        this.routerInstance = new koaRouter(routerOptions)
         this.koaInstance = new Koa()
-        this.init()
-
     }
 
    
