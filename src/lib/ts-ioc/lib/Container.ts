@@ -268,21 +268,23 @@ export class ContainerBase{
 }
 
 
-export class Container extends ContainerBase{
-  private controllerInstance = new WeakMap<Type<any>, any>();
-  private modulesInstance = new WeakMap<Type<any>, any>();
-
+export class Container<K> extends ContainerBase{
+  private controllerInstance:Array<any> = [];
+  private modulesInstance:Array<any> = [];
+  constructor(entryModule?: Type<K>){
+     super()
+     entryModule&&this.init(entryModule)
+  }
   init<T>(entryModule: Type<T>) {
     this.bindModule(entryModule);
-    // console.log("providers",this.providers)
     this.initLoading()
     this.filterTypeInstance()
   }
   protected filterTypeInstance(){
      this.instances.forEach((key:Type<any>,value)=>{
       if(isFun(key) && !isNotBaseType(key.name)){
-         isController(key) &&  this.controllerInstance.set(key,value)
-         isModule(key) && this.modulesInstance.set(key,value)
+         isController(key) &&  this.controllerInstance.push(value)
+         isModule(key) && this.controllerInstance.push(value)
       }
      })
   }
