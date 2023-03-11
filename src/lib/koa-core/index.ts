@@ -1,11 +1,16 @@
 
 
+
 import {Container,Type} from "../ts-ioc"
 import Koa from "koa"
 import koaRouter from "koa-router"
-import { ResigerRouters } from "../koa-router-decorator"
+import { Pipe, ResigerRouters ,IGuard} from "../koa-router-decorator"
+import { HttpExceptionFilter, IExceptionsFilter } from "./exception-filters/http-exception-filter"
 
 
+export type IResponseInterceptor = (
+  ctx: Koa.DefaultContext
+) =>unknown;
 interface IKoaNestOption {
     routerOptions:koaRouter.IRouterOptions,
     [key:string]:any
@@ -13,14 +18,21 @@ interface IKoaNestOption {
 
 export class KoaNestTs<T> {
 
-    private iocInstance:Container<T>
+    private iocInstance:Container<T> // ioc 容器实例
 
-    private koaInstance:Koa
+    private koaInstance:Koa   // koa 实例
 
-    private routerInstance:koaRouter
+    private routerInstance:koaRouter  // 路由实例
 
-    private middleWareQuence: Array<Koa.Middleware> = [];
+    private middleWareQuence: Array<Koa.Middleware> = [];// 全局中间件
 
+    private pipeQuence :Array<Pipe> = [] // 全局管道
+
+    private guardQuence: Array<IGuard> = [] // 全局守卫
+
+    private exceptionsFilterQuence: Array<IExceptionsFilter> = [  HttpExceptionFilter ]; // 全局异常拦截器(中间件)
+
+    private responseInterceptorQuence: Array<IResponseInterceptor> = []; // 全局响应拦截器(中间件)
 
     constructor(appModule:Type<T>, options:IKoaNestOption){
         const {routerOptions} = options || {}
@@ -28,9 +40,27 @@ export class KoaNestTs<T> {
         this.routerInstance = new koaRouter(routerOptions)
         this.koaInstance = new Koa()
     }
+    private init(){
 
-   
-
+      // 加载全局中间件
+      this.koaInstance.use(this.setFirstMiddleware())
+      this.middleWareQuence.forEach((middleware:Koa.Middleware)=>this.koaInstance.use(middleware) )
+      // 加载路由
+      this.loadRoutes()
+      this.appError()
+    }
+  
+    // 设置第一个中间，可以捕获全局响应和错误处理
+    private setFirstMiddleware=()=>{
+      return   async (ctx: Koa.DefaultContext, next: Function) => {
+          try {
+            await next();
+            this.responseInterceptorQuence.forEach((itme) => itme(ctx));
+          } catch (error) {
+            ctx.app.emit("error", error, ctx);
+          }
+        };
+    }
     // 加载路由
     private loadRoutes() {
         const ctrInstance = this.iocInstance.getControllerInstance();
@@ -39,16 +69,31 @@ export class KoaNestTs<T> {
             this.koaInstance,
             itme,
             {
-                midwares:[],
-                golbalGuards:[] ,
-                pipesQuence:[] 
-            
+              guards:[],
+              pipes:[]
             }
           )
         );
 
         this.koaInstance.use(this.routerInstance.routes());
     }
+
+    // 监听错误响应
+    private appError() {
+      this.koaInstance.on("error", (error:Error,ctx:Koa.DefaultContext)=>{
+        this.exceptionsFilterQuence.forEach((itme) => itme(ctx, error))
+      });
+    }
+
+    public listen(port: number, host?: string | Function, callback?: Function) {
+      this.init();
+      if (typeof host == "function") {
+        callback = host;
+        host = "0.0.0.0";
+      }
+      this.koaInstance.listen(port, host, callback && callback());
+    }
+
     public getKoa() {
         return this.koaInstance
     }
@@ -59,62 +104,34 @@ export class KoaNestTs<T> {
     public getIoc() {
         return this.iocInstance;
     }
-    
-     
     //添加全局中间件
     public use(...middleware: Array<Koa.Middleware>) {
         this.middleWareQuence = [...this.middleWareQuence, ...middleware];
     }
-    // 监听错误响应
-    appError() {
-        this.koaInstance.on("error", this.httpExceptionFilter);
+  
+     //添加全局守卫
+    public setGlobalGuard(...fn: Array<IGuard>) {
+      this.guardQuence =  this.guardQuence.concat(fn)
     }
 
-     // 错误处理
-    private httpExceptionFilter =  async (error:Error,ctx:Koa.DefaultContext)=>{
-        ctx.body =  {message:error.message?error.message:error,status:false,success:false,path: ctx.url,}
+    // 添加全局管道
+    public setGlobalPip(...fn: Array<Pipe>) {
+      this.pipeQuence =  this.pipeQuence.concat(fn)
     }
 
-    //成功响应处理
-    private httpResponseInterceptor = async (ctx:Koa.DefaultContext,next: Function)=>{
-        if (ctx.response.is("text/plain") || ctx.response.is("json")) {
-        
-            ctx.body =  { timestamp: new Date(), code: 200, data: ctx.body, status: true, message: "success"};
-        }
+    //添加全局异常拦截器
+    public setGlobalExceptionsFilter(...fn: Array<IExceptionsFilter>) {
+      this.exceptionsFilterQuence =  this.exceptionsFilterQuence.concat(fn)
+
+    }
+     // 添加全局响应拦截器
+    public setGlobalResponseInterceptor(...fn: Array<IResponseInterceptor>) {
+      this.responseInterceptorQuence =  this.responseInterceptorQuence.concat(fn)
     }
 
-    // 设置第一个中间，可以捕获全局响应和错误处理
-    private setFirstMiddleware=()=>{
-        return   async (ctx: Koa.DefaultContext, next: Function) => {
-            try {
-              await next();
-              this.httpResponseInterceptor(ctx,next)
-            } catch (error) {
-              ctx.app.emit("error", error, ctx);
-            }
-          };
-      }
-      init(){
+    public static create<T>(appModule: Type<T>, option?: IKoaNestOption) {
+      return new this(appModule, option);
+    }
 
-        // 加载全局中间件
-        this.koaInstance.use(this.setFirstMiddleware())
-        this.middleWareQuence.forEach((middleware:Koa.Middleware)=>this.koaInstance.use(middleware) )
-        // 加载路由
-        this.loadRoutes()
-        this.appError()
-     }
-      listen(port: number, host?: string | Function, callback?: Function) {
-        this.init();
-        if (typeof host == "function") {
-          callback = host;
-          host = "0.0.0.0";
-        }
-        this.koaInstance.listen(port, host, callback && callback());
-      }
-      public static create<T>(appModule: Type<T>, option?: IKoaNestOption) {
-        return new this(appModule, option);
-      }
-
-      
-
+    
 }

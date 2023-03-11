@@ -1,6 +1,6 @@
 import "reflect-metadata";
 import { CONTROLLER_META_KEY } from "./Constant";
-import { getControllerMeta } from "./Controller";
+import { getControllerMeta } from "./Controller.Decorator";
 import { IControllerMetate, IRouterType } from "./Interface";
 
 // 方法

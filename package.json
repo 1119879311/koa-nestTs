@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon --watch c -e ts,tsx --exec npx ts-node ./c/main.ts",
+    "test": "nodemon --watch src -e ts,tsx --exec npx ts-node ./c/main.ts",
     "dev": "set NODE_ENV=development&&nodemon --watch src -e ts,tsx --exec npx ts-node ./src/index.ts",
     "build": "set NODE_ENV=production&&tsc && nodemon  dist/index.js --watch dist",
     "pm2": "set NODE_ENV=production && tsc && pm2  start dist/index.js"

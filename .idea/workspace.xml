@@ -1,36 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5f41629-190c-4198-b2f2-5ec98ebcad4b" name="默认更改列表" comment="默认更改列表">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/User/user.controller.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/User/user.controller.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/User/user.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/User/user.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/User/user.serves.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/User/user.serves.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/modules/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/modules/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/share/Filter/http.exceptions.filter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/share/Filter/http.exceptions.filter.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/share/Interceptor/http.response.interceptor.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/share/Interceptor/http.response.interceptor.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/share/Ioc/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/share/Ioc/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/share/Ioc/lib/Container.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/share/Ioc/lib/Container.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/share/Ioc/lib/Inject.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/share/Ioc/lib/Inject.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/share/Ioc/lib/Module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/share/Ioc/lib/Module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/share/Ioc/lib/Uitl.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/share/Ioc/lib/Uitl.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/share/Ioc/test/test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/share/Ioc/test/test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/share/Util/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/share/Util/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/share/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/share/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/share/routerDecorator/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/share/routerDecorator/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/share/routerDecorator/lib/GetRouters.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/share/routerDecorator/lib/GetRouters.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/share/routerDecorator/lib/Guard.Decorator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/share/routerDecorator/lib/Guard.Decorator.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/share/routerDecorator/lib/Interface.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/share/routerDecorator/lib/Interface.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/share/routerDecorator/lib/Methond.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/share/routerDecorator/lib/Methond.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/share/routerDecorator/lib/Parameter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/share/routerDecorator/lib/Parameter.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/share/routerDecorator/lib/ResigerRouter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/share/routerDecorator/lib/ResigerRouter.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/share/routerDecorator/lib/metadata.Decorator.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/share/routerDecorator/lib/metadata.Decorator.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/share/routerDecorator/test/index.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/share/routerDecorator/test/index.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/uitl/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/uitl/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-    </list>
+    <list default="true" id="c5f41629-190c-4198-b2f2-5ec98ebcad4b" name="默认更改列表" comment="默认更改列表" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,6 +80,7 @@
       <updated>1542886864164</updated>
       <workItem from="1542886865378" duration="1460000" />
       <workItem from="1677920995348" duration="102000" />
+      <workItem from="1678521129701" duration="19000" />
     </task>
     <servers />
   </component>
@@ -152,6 +124,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.ts">

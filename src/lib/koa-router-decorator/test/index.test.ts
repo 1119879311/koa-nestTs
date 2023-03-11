@@ -9,6 +9,7 @@ import {
   IContextOption,
   IGuard,
   Use,
+  setMetadata,
 } from "../index";
 import koaRouter from "koa-router";
 import Koa from "koa"
@@ -32,20 +33,20 @@ const setGolbalStateMiddleware = async(ctx:Koa.DefaultContext,next:Function)=>{
      userId:"1",
      userName:"123"
   }
-  throw new Error("全局中间件--setGolbalStateMiddleware 错误")
+  // throw new Error("全局中间件--setGolbalStateMiddleware 错误")
   await next()
 }
 
 const ClassMiddleware = async(ctx:Koa.DefaultContext,next:Function)=>{
   console.log("类中间件--ClassMiddleware")
-  throw new Error("类中间件--ClassMiddleware 错误")
+  // throw new Error("类中间件--ClassMiddleware 错误")
  
   await next()
 }
 
 const MethondMiddleware = async(ctx:Koa.DefaultContext,next:Function)=>{
   console.log("方法中间件--MethondMiddleware")
-  throw new Error("方法中间件--MethondMiddleware 错误")
+  // throw new Error("方法中间件--MethondMiddleware 错误")
   await next()
 }
 
@@ -54,8 +55,8 @@ const MethondMiddleware = async(ctx:Koa.DefaultContext,next:Function)=>{
 const useAuthGuards:IGuard = async (option)=>{
   const {ctx } = option
   console.log("全局守卫 useAuthGuards" ,ctx.state,ctx.query.id)
-  throw new Error("全局守卫 useAuthGuards 错误")
-  return ctx.query.id===ctx.state.useConfig.userId
+  // throw new Error("全局守卫 useAuthGuards 错误")
+  return await ctx.query.id===ctx.state.useConfig.userId
 }
 
 
@@ -64,15 +65,15 @@ const useAuthGuards:IGuard = async (option)=>{
 const ClassGuard:IGuard = async (option)=>{
   const {ctx } = option
   console.log("类守卫 ClassGuards" ,ctx.state)
-  throw new Error("类守卫 ClassGuards 错误")
+  // throw new Error("类守卫 ClassGuards 错误")
  
   return true
 }
 // 方法的守卫
 const MethondGuard:IGuard = async (option)=>{
-  const {ctx } = option
-  console.log("方法守卫 MethondGuard" ,ctx.state)
-  throw new Error("方法守卫 MethondGuard 错误")
+  const {ctx,get } = option
+  console.log("方法守卫 MethondGuard" ,ctx.state ,get("apiName"))
+  // throw new Error("方法守卫 MethondGuard 错误")
  
   return true
 }
@@ -81,7 +82,7 @@ const MethondGuard:IGuard = async (option)=>{
 class  Validation extends Pipe {
   apply(option: IContextOption): void | Promise<void> {
      console.log("管道 Validation-apply:", option.getArgs())
-     throw new Error("管道 Validation-apply: 参数有误")
+    //  throw new Error("管道 Validation-apply: 参数有误")
   }
   
 }
@@ -103,17 +104,18 @@ class A extends db {
     this.a = 123456;
   }
 
-  @GET()
-  list(@Query() query: any, @Ctx() ctx: any) {
-    console.log(this.a, this.name);
-    console.log("getbefore");
-    ctx.body = 12123;
-    console.log("getnext");
-    return 123132
-  }
+  // @GET()
+  // list(@Query() query: any, @Ctx() ctx: any) {
+  //   console.log(this.a, this.name);
+  //   console.log("getbefore");
+  //   ctx.body = 12123;
+  //   console.log("getnext");
+  //   return 123132
+  // }
+  @setMetadata("apiName",'这是元数据')
   @Use(MethondMiddleware)
   @Guard(MethondGuard)
-  @GET("save/:id")
+  @GET("list")
   save(@Query() query: useDto, @Ctx() ctx: any,@Query("id") id: string,) {
     // console.log(this.a, this.name,query);
     console.log("路由层:getbefore","state:",ctx.state,"query:",query);
@@ -132,8 +134,8 @@ class A extends db {
 export function testContorller(app: any) {
   ResigerRouter(rotuer, A,{
     midwares:[setGolbalStateMiddleware],
-    golbalGuards:[useAuthGuards],
-    pipesQuence:[ new Validation() ]
+    guards:[useAuthGuards],
+    pipes:[ new Validation() ]
 });
   
   // 错误处理
@@ -145,7 +147,7 @@ export function testContorller(app: any) {
   const HttpResponseInterceptor = async (ctx:Koa.DefaultContext)=>{
     if (ctx.response.is("text/plain") || ctx.response.is("json")) {
       
-      ctx.body =  { timestamp: new Date(), code: 200, data: ctx.body, status: true, message: "success"};
+      ctx.body = await { timestamp: new Date(), code: 200, data: ctx.body, status: true, message: "success"};
     }
   }
   

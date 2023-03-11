@@ -1,15 +1,15 @@
-import { getControllerMeta } from "./Controller";
+import { getControllerMeta } from "./Controller.Decorator";
 import { getGuard, GuardTranformsMiddleWare } from "./Guard.Decorator";
 import { IControllerMetate } from "./Interface";
 import { getMiddleware } from "./Use.Decorator";
 import path from "path";
-import { getMothodParameter } from "./Parameter";
+import { getMothodParameter } from "./Parameter.Decorator";
 import { Pipe, pipTranfromMiddleWare } from "./Pipe";
 
 type IResigerRouterOption ={
   midwares?: Array<Function>,
-  golbalGuards?: Array<Function> ,
-  pipesQuence?: Array<Pipe> 
+  guards?: Array<Function> ,
+  pipes?: Array<Pipe> 
 }
 
 export function ResigerRouters(
@@ -31,7 +31,7 @@ export function ResigerRouter(
   controllerInstance: Object | Function,
   optons?:IResigerRouterOption
 ) {
-  const {midwares=[],golbalGuards=[],pipesQuence=[]} = optons || {}
+ 
   if(!routerIntance){
     throw `Missing parameter routing instance`;
   }
@@ -49,22 +49,29 @@ export function ResigerRouter(
     controllerInstance.constructor
   );
 
+  const globalMidwares = optons.midwares || []
+  const golbalGuards = optons.guards || []
+  const globalPipes = optons.pipes || []
+
   for (let key in routers) {
     if (key == "constructor") return;
     //获取中间件
     let middlewares = [
-      ...midwares,
+      ...globalMidwares,
       ...(getMiddleware(controllerInstance, key) || []),
     ];
+
+    // console.log("middlewares",middlewares)
+
     //获取守卫
     let guards = [
       ...GuardTranformsMiddleWare(controllerInstance, key, ...golbalGuards),
       ...(getGuard(controllerInstance, key) || []),
     ];
-
+    // console.log("guards",guards)
     // 获取管道
     let pips = [
-      ...pipTranfromMiddleWare(controllerInstance, key, ...pipesQuence),
+      ...pipTranfromMiddleWare(controllerInstance, key, ...globalPipes),
     ];
 
     let routerMeat = routers[key];
