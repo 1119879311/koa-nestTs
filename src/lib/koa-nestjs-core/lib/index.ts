@@ -1,18 +1,18 @@
 
 
 
-import {Container,Type} from "../ts-ioc"
+import {Container,Type} from "../../ts-ioc"
 import Koa from "koa"
 import koaRouter from "koa-router"
-import { Pipe, ResigerRouters ,IGuard} from "../koa-router-decorator"
+import { Pipe, ResigerRouters ,IGuard} from "../../koa-router-decorator"
 import { HttpExceptionFilter, IExceptionsFilter } from "./exception-filters/http-exception-filter"
-
 
 export type IResponseInterceptor = (
   ctx: Koa.DefaultContext
 ) =>unknown;
 interface IKoaNestOption {
-    routerOptions:koaRouter.IRouterOptions,
+    prefix?: string,
+    routerOptions?:koaRouter.IRouterOptions,
     [key:string]:any
 }
 
@@ -35,19 +35,19 @@ export class KoaNestTs<T> {
     private responseInterceptorQuence: Array<IResponseInterceptor> = []; // 全局响应拦截器(中间件)
 
     constructor(appModule:Type<T>, options:IKoaNestOption){
-        const {routerOptions} = options || {}
+        const {routerOptions={}} = options || {}
         this.iocInstance = new Container(appModule)
-        this.routerInstance = new koaRouter(routerOptions)
+        this.routerInstance = new koaRouter({...routerOptions,prefix:options.prefix});
         this.koaInstance = new Koa()
     }
     private init(){
-
+      this.appError()
       // 加载全局中间件
       this.koaInstance.use(this.setFirstMiddleware())
       this.middleWareQuence.forEach((middleware:Koa.Middleware)=>this.koaInstance.use(middleware) )
       // 加载路由
       this.loadRoutes()
-      this.appError()
+      
     }
   
     // 设置第一个中间，可以捕获全局响应和错误处理
@@ -64,9 +64,9 @@ export class KoaNestTs<T> {
     // 加载路由
     private loadRoutes() {
         const ctrInstance = this.iocInstance.getControllerInstance();
-        [...ctrInstance.values()].forEach((itme) =>
+        ctrInstance.forEach((itme) =>
           ResigerRouters(
-            this.koaInstance,
+            this.routerInstance,
             itme,
             {
               guards:[],

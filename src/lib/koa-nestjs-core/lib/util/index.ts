@@ -1,6 +1,4 @@
 
-import fs from "fs"
-import path from "path"
 //判断是否合法日期
 export function isDate(val: any) {
   return val instanceof Date && !isNaN(val.getTime());

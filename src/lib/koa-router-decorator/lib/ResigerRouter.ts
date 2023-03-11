@@ -48,7 +48,6 @@ export function ResigerRouter(
   let { prefix, routers }: IControllerMetate = getControllerMeta(
     controllerInstance.constructor
   );
-
   const globalMidwares = optons.midwares || []
   const golbalGuards = optons.guards || []
   const globalPipes = optons.pipes || []

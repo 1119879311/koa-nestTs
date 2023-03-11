@@ -281,10 +281,11 @@ export class Container<K> extends ContainerBase{
     this.filterTypeInstance()
   }
   protected filterTypeInstance(){
-     this.instances.forEach((key:Type<any>,value)=>{
-      if(isFun(key) && !isNotBaseType(key.name)){
+     this.instances.forEach((value:Type<any>,key)=>{
+      // console.log("filterTypeInstance",key,value,isFun(key) && isNotBaseType(key.name), isController(key))
+      if(isFun(key) && isNotBaseType(key.name)){
          isController(key) &&  this.controllerInstance.push(value)
-         isModule(key) && this.controllerInstance.push(value)
+         isModule(key) && this.modulesInstance.push(value)
       }
      })
   }
@@ -322,7 +323,6 @@ export class Container<K> extends ContainerBase{
   private bindModuleLoadControllers<T>(providers: Type<T>[]) {
     if (Array.isArray(providers)) {
       providers.forEach((itme) => {
-       
         setController(itme); //标志位控制器
         setInjectable(itme); //标志为可注入依赖
         this.bind({ provide: itme, useClass: itme });
