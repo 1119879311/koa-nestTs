@@ -4,18 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "nodemon --watch src -e ts,tsx --exec ts-node ./test/index.ts",
-    "dev": "set NODE_ENV=development&&nodemon --watch src -e ts,tsx --exec ts-node ./src/index.ts",
+    "test": "nodemon --watch src -e ts,tsx --exec npx ts-node ./src/lib/koa-nestjs-core/test",
+    "dev": "set NODE_ENV=development&&nodemon --watch src -e ts,tsx --exec npx ts-node ./src/index.ts",
     "build": "set NODE_ENV=production&&tsc && nodemon  dist/index.js --watch dist",
     "pm2": "set NODE_ENV=production && tsc && pm2  start dist/index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "db-sql": "^1.0.0",
+    "ioc-typescript": "^1.0.2",
     "koa": "^2.11.0",
     "koa-bodyparser": "^4.3.0",
     "koa-router": "^7.4.0",
+    "koa-router-decorator2": "^1.0.0",
     "mysql": "^2.17.1",
     "reflect-metadata": "^0.1.13"
   },

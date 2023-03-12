@@ -1,4 +1,4 @@
-import { Injectable } from "../../share/Ioc";
+import { Injectable } from "ioc-typescript";
 
 @Injectable()
 export class UserServer{

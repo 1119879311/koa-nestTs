@@ -1,4 +1,4 @@
-import { Module } from "../share/Ioc";
+import { Module } from "ioc-typescript";
 import { UserModule } from "./User/user.module";
 
 @Module({

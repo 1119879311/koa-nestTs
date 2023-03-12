@@ -1,4 +1,4 @@
-import { Module } from "../../share/Ioc";
+import { Module } from "ioc-typescript";
 import { UserController } from "./user.controller";
 import { UserServer } from "./user.serves";
 

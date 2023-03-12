@@ -1,5 +1,5 @@
 
-import { Controller, GET, setMetadata, Use } from "../../share/routerDecorator";
+import { Controller, GET, setMetadata, Use } from "koa-router-decorator2";
 import { UserServer } from "./user.serves";
 
 
