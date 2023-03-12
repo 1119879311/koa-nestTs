@@ -54,6 +54,7 @@ export class KoaNestTs<T> {
     private setFirstMiddleware=()=>{
       return   async (ctx: Koa.DefaultContext, next: Function) => {
           try {
+            ctx.requestId = Math.random();
             await next();
             this.responseInterceptorQuence.forEach((itme) => itme(ctx));
           } catch (error) {

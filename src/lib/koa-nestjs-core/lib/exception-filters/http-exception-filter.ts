@@ -12,23 +12,22 @@ export const HttpExceptionFilter: IExceptionsFilter = async (
   const logStr = `${error.stack}`;
   Logger.error(logStr);
   let body: Record<
-    "data" | "status" | "code" | "message" | "timestamp" | "path",
+    "success" | "code" | "message" | "timestamp" | "url" | "requestId",
     any
   > = {
-    data: null,
-    status: false,
+    success: false,
     code: 500,
-    message: null,
+    message: "Server Exception",
     timestamp: new Date(),
-    path: ctx.url,
+    url: ctx.url,
+    requestId:ctx.requestId
   };
 
   if (error instanceof HttpExceptions) {
-    ctx.status = error.getStatus();
     body.code = error.getStatus();
     body.message = error.message;
   } else {
-    ctx.status = 500;
+    ctx.code = 500;
     body.message = error.message ? error.message : error;
   }
   ctx.body = await body;

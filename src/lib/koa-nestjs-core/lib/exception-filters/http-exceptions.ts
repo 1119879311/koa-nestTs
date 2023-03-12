@@ -20,7 +20,7 @@ export class HttpExceptions extends Error{
         }else if(isObject(this.response)&& isString((this.response as Record<string,any>).message)){
             this.message = (this.response as Record<string, any>).message;
         }else{
-            this.message="SERVER IS ERROR"
+            this.message="Server Exception"
             this.statusCode = HttpStatus.INTERNAL_SERVER_ERROR
         }
 

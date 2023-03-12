@@ -1,8 +1,6 @@
-import { Provider } from "./Provider";
-import { Token, Type } from "./Token";
+import {  Type } from "./Token";
 export type IforwardRefPro<T> ={ () : Type<T>,forwardRef:boolean};
 
-// export type IforwardRef<T> ={ () : Type<T>,forwardRef:boolean};
 export type IforwardRef<T> =() => Type<T>
 
 export function isforwardRef<T>(arg:unknown):arg is IforwardRef<T>{
