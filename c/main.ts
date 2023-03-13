@@ -8,6 +8,8 @@ import "reflect-metadata";
 
 
 import "../src/lib/koa-nestjs-core/test/app.module"
+// import "./ioc-typescript-test/index"
+// import "./koa-router-decorator2-test"
 
 
 

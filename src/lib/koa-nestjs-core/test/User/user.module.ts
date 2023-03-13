@@ -1,4 +1,4 @@
-import { forwardRef, Module } from "../../../ts-ioc";
+import { forwardRef, Module } from "ioc-typescript";
 import { UserController } from "./user.controller";
 import { UserServer } from "./user.serves";
 import { SqlServer } from "./usersql.server";

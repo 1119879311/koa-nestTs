@@ -1,5 +1,5 @@
 
-import {Module} from "../../ts-ioc"
+import {Module} from "ioc-typescript"
 import { UserModule } from "./User/user.module";
 import {KoaNestTs} from "../index"
 

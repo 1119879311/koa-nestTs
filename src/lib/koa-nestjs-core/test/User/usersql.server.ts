@@ -1,4 +1,4 @@
-import { Injectable } from "../../../ts-ioc";
+import { Injectable } from "ioc-typescript";
 
 // import { UserServer } from "./user.serves";
 

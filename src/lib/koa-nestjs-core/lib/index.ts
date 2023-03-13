@@ -1,10 +1,10 @@
 
 
 
-import {Container,Type} from "../../ts-ioc"
+import {Container,Type} from "ioc-typescript"
 import Koa from "koa"
 import koaRouter from "koa-router"
-import { Pipe, ResigerRouters ,IGuard} from "../../koa-router-decorator"
+import { Pipe, ResigerRouters ,IGuard} from "koa-router-decorator2"
 import { HttpExceptionFilter, IExceptionsFilter } from "./exception-filters/http-exception-filter"
 
 export type IResponseInterceptor = (

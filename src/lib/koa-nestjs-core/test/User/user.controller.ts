@@ -9,7 +9,7 @@ import {
   IGuard,
   Use,
   setMetadata,
-} from "../../../koa-router-decorator";
+} from "koa-router-decorator2";
 import Koa from "koa"
 import { UserServer } from "./user.serves";
 

@@ -299,6 +299,7 @@ export class Container<K> extends ContainerBase{
 
     //模块绑定
   public bindModule<T>(module: Type<T>) {
+    console.log("module",module,isModule(module))
     if (!isModule(module)) {
       throw new Error(` cannot  imports [${getTokenName(module)}] using  [${getTokenName( module )}]， ${getTokenName(module)} is not module `);
     }
