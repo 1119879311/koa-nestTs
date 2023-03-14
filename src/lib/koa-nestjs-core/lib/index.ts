@@ -70,8 +70,8 @@ export class KoaNestTs<T> {
             this.routerInstance,
             itme,
             {
-              guards:[],
-              pipes:[]
+              guards:this.guardQuence,
+              pipes:this.pipeQuence
             }
           )
         );
