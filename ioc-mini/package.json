@@ -1,0 +1,19 @@
+{
+  "name": "ioc-mini",
+  "version": "1.0.0",
+  "description": "概念篇和实践篇",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch":"npx tsc -p tsconfig.json --watch",
+    "dev":"node dist/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "reflect-metadata": "^0.1.13"
+  }
+}
