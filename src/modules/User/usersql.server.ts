@@ -1,4 +1,4 @@
-import { Injectable, forwardRef } from "../../share/Ioc";
+import { Injectable, forwardRef } from "@by/ioc";
 import { UserServer } from "./user.serves";
 
 @Injectable()

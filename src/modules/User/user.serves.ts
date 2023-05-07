@@ -1,4 +1,4 @@
-import { Injectable } from "../../share/Ioc";
+import { Injectable } from "@by/ioc";
 import { SqlServer } from "./usersql.server";
 
 @Injectable()

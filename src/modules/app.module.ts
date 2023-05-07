@@ -1,8 +1,7 @@
-import { RoleModule } from "./Role/module";
-import { Module } from "../share/Ioc";
+import { Module } from "@by/ioc";
 import { UserModule } from "./User/user.module";
 
 @Module({
-  imports: [UserModule, RoleModule],
+  imports: [UserModule],
 })
 export class appModule {}

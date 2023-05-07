@@ -1,13 +1,13 @@
-import { resolveApp } from './uitl/index';
-import { KoaNestTs } from "./share";
-import { LoggerMwareInfo } from "./share/Middleware";
 import koaBodyParser from "koa-bodyparser";
-import { Logger } from "./share/Logger";
-import { appModule } from "./modules/app.module";
-import { ValidationPipe } from "./share/Pipe/ValidationPipe";
-import { authGuard } from "./share/Guard/Auth.guard";
 import koa2Cors from "koa2-cors";
-import koaArtTemplate from "koa-art-template"
+import  koaArtTemplate from "koa-art-template"
+import { KoaNestTs ,Logger} from "@by/nestjs";
+import { LoggerMwareInfo } from "./share/middlewares";
+import { resolveApp } from './utils/index';
+import { appModule } from "./modules/app.module";
+import { ValidationPipe } from "./share/pipes";
+import { authGuard } from "./share/guards/auth.guard";
+
 
 const App = KoaNestTs.create(appModule, { routerPrefix: "/api" });
 const koaInastance = App.getKoa()
@@ -31,6 +31,6 @@ koaArtTemplate(koaInastance, {
 });
 // 中间间
 App.use(koa2Cors(), koaBodyParser(), LoggerMwareInfo); //全局中间件
-App.listen(3001, () => {
-  Logger.info("app is runing in prot 3001");
+App.listen(3002, () => {
+  Logger.info("app is runing in prot 3002");
 });

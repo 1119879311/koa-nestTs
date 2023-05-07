@@ -6,15 +6,17 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-const Ioc_1 = require("../../share/Ioc");
+exports.UserModule = void 0;
+const ioc_1 = require("../../package/ioc/src");
 const user_controller_1 = require("./user.controller");
 const user_serves_1 = require("./user.serves");
+const usersql_server_1 = require("./usersql.server");
 let UserModule = class UserModule {
 };
 UserModule = __decorate([
-    Ioc_1.Module({
+    (0, ioc_1.Module)({
         controllers: [user_controller_1.UserController],
-        providers: [user_serves_1.UserServer]
+        providers: [user_serves_1.UserServer, usersql_server_1.SqlServer],
     })
 ], UserModule);
 exports.UserModule = UserModule;
